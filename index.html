@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anotador</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/globales.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="img/icono.png">
+</head>
+<body>
+
+    <div id="contenido">
+        <div class="container">
+
+            <h1>Libreta Virtual</h1>
+            <div class="row">
+                <div class="six columns">
+                    <label for="anotacion">Mis recordatorios</label>
+                    <form  id="formulario">
+                            <label for="anotacion"></label>
+                            <textarea id="anotacion" class="u-full-width"></textarea>
+                            <input type="submit" class="button u-full-width button-primary" value="Agregar">
+                    </form>
+                </div>
+                <div class="six columns anotacion">
+                    <h2>Anotaciones</h2>
+                    <div id="lista-anotaciones"></div>
+                </div>
+            </div>
+
+        </div>
+    </div> <!--#contenido-->
+
+    <script src="js/app.js"></script>
+</body>
+</html>
